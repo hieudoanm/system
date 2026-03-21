@@ -3,7 +3,7 @@ module github.com/hieudoanm/system
 go 1.26.1
 
 require (
-	github.com/charmbracelet/bubbletea v1.3.10
+	github.com/charmbracelet/bubbletea/v2 v2.0.2
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/shirou/gopsutil/v4 v4.26.2
 	github.com/spf13/cobra v1.10.2
