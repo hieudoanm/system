@@ -3,8 +3,8 @@ module github.com/hieudoanm/system
 go 1.26.1
 
 require (
-	github.com/charmbracelet/bubbletea/v2 v2.0.2
-	github.com/charmbracelet/lipgloss/v2 v2.0.2
+	github.com/charmbracelet/bubbletea v1.3.10
+	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/shirou/gopsutil/v4 v4.26.2
 	github.com/spf13/cobra v1.10.2
 )
@@ -34,7 +34,6 @@ require (
 	github.com/tklauser/numcpus v0.11.0 // indirect
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
-	golang.org/x/sync v0.11.0 // indirect
 	golang.org/x/sys v0.41.0 // indirect
 	golang.org/x/text v0.3.8 // indirect
 )

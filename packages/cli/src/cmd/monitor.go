@@ -395,7 +395,7 @@ func renderMetricCard(label, val string, pct float64, width int) string {
 
 var monitorCmd = &cobra.Command{
 	Use:   "monitor",
-	Short: "Live system monitor (CPU, RAM, disk, network, processes)",
+	Short: "Run the monitor operation for the system app",
 	RunE: func(cmd *cobra.Command, args []string) error {
 		p := tea.NewProgram(
 			model{width: 100},
