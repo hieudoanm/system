@@ -29,7 +29,7 @@
     "test": "jest",
     "prebuild": "rimraf .next ../../docs",
     "build": "next build --turbopack",
-    "postbuild": "touch ../../docs/.nojekyll",
+    "postbuild": "sh scripts/sh/post-build.sh",
     "prestart": "kill-port 3000",
     "start": "next start",
     "tauri": "tauri",
