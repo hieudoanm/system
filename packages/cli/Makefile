@@ -19,6 +19,9 @@ format:
 build: format lint
 	@mkdir -p $(BIN_DIR)
 	go build $(LDFLAGS) -o $(BIN_DIR)/$(BIN_NAME) $(SRC)
+	@echo "✅ Binary: $$(pwd)/$(BIN_DIR)/$(BIN_NAME)"
+	@echo "📦 Version: $(VERSION)"
+	@echo "📏 Size: $$(du -h $(BIN_DIR)/$(BIN_NAME) | cut -f1)"
 
 ## Install binary into ~/bin
 install: build
